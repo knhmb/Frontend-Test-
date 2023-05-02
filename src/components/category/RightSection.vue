@@ -93,14 +93,4 @@ export default {
     }
   }
 }
-
-// @media screen and (max-width: 669px) {
-//   .card {
-//     padding: 2rem 1.5rem;
-//     .info {
-//       flex-direction: column;
-//       text-align: center;
-//     }
-//   }
-// }
 </style>

@@ -1,8 +1,6 @@
 <template>
   <div class="carousel">
     <SimpleCarousel :items-per-view="itemsPerView" hide-buttons-on-start-end>
-      <!-- <span slot="prevButton">Click to go back!</span>
-      <span slot="nextButton">Click to go next!</span> -->
       <base-card v-for="category in allCategories" :key="category.id">
         <i :class="`fa fa-${category.icon}`"></i>
         <p>{{ category.title }}</p>

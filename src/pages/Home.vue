@@ -20,9 +20,4 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "../scss/_variables.scss";
-
-.home {
-  // background: #f9f9f9;
-}
 </style>

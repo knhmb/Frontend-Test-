@@ -16,67 +16,6 @@
           </base-card>
         </el-col>
       </template>
-      <!-- <el-col :sm="12" :lg="8">
-        <div class="card">
-          <i class="fa fa-play"></i>
-          <p>Getting Started</p>
-          <div class="info">
-            <p class="article">5 articles</p>
-            <p>Last update 2 days ago</p>
-          </div>
-        </div>
-      </el-col>
-      <el-col :sm="12" :lg="8">
-        <div class="card">
-          <i class="fa fa-regular fa-comment"></i>
-          <p>Getting Started</p>
-          <div class="info">
-            <p class="article">5 articles</p>
-            <p>Last update 2 days ago</p>
-          </div>
-        </div>
-      </el-col>
-      <el-col :sm="12" :lg="8">
-        <div class="card">
-          <i class="fa fa-play"></i>
-
-          <p>Getting Started</p>
-          <div class="info">
-            <p class="article">5 articles</p>
-            <p>Last update 2 days ago</p>
-          </div>
-        </div>
-      </el-col>
-      <el-col :sm="12" :lg="8">
-        <div class="card">
-          <i class="fa fa-play"></i>
-          <p>Getting Started</p>
-          <div class="info">
-            <p class="article">5 articles</p>
-            <p>Last update 2 days ago</p>
-          </div>
-        </div>
-      </el-col>
-      <el-col :sm="12" :lg="8">
-        <div class="card">
-          <i class="fa fa-play"></i>
-          <p>Getting Started</p>
-          <div class="info">
-            <p class="article">5 articles</p>
-            <p>Last update 2 days ago</p>
-          </div>
-        </div>
-      </el-col>
-      <el-col :sm="12" :lg="8">
-        <div class="card">
-          <i class="fa fa-play"></i>
-          <p>Getting Started</p>
-          <div class="info">
-            <p class="article">5 articles</p>
-            <p>Last update 2 days ago</p>
-          </div>
-        </div>
-      </el-col> -->
     </el-row>
   </div>
 </template>
@@ -99,13 +38,6 @@ export default {
       localStorage.setItem("categories", JSON.stringify(this.categories));
       this.$router.push({ name: "category", params: { categoryId: cat.id } });
     },
-    // getDateDifference(date) {
-    //   const currentDate = new Date();
-    //   const previousDate = new Date(date);
-    //   const timeDifference = currentDate.getTime() - previousDate.getTime();
-    //   const daysDifference = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
-    //   return daysDifference;
-    // },
   },
   async created() {
     let response;
