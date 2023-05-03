@@ -22,7 +22,6 @@
 
 <script>
 import axios from "axios";
-import moment from "moment";
 import dateDifference from "../../mixins/dateDifference";
 
 export default {
